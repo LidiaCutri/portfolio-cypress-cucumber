@@ -1,7 +1,8 @@
+
 const txtEmail = "#email";
 const txtSenha = "#senha";
 
-class LoginPage{
+class LoginPage{    
     
     typeEmail(useremail){
         cy.get(txtEmail).type(useremail);

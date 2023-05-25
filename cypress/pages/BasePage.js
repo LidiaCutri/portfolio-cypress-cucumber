@@ -1,7 +1,11 @@
 class BasePage{
     
     getMsgSucess(){
-        return cy.get("div[class*='alert-success']")
+        return cy.get("div[class*='alert-success']");
+    }
+
+    getMsgDanger(){
+        return cy.get("div[class*='alert-danger']");
     }
 }
 

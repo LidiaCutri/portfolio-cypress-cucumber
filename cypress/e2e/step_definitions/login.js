@@ -10,9 +10,9 @@ import {
   });
 
   When("O usuário informar suas credenciais {string} e senha {string}", function (string, string2) {
-    loginPage.typeEmail(string)
-    loginPage.typeSenha(string2)
-    loginPage.clickEntrar()
-  });
-
+    loginPage.typeEmail(string);
+    loginPage.typeSenha(string2);
+    loginPage.clickEntrar();
+  });  
+  
   
